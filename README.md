@@ -1,5 +1,5 @@
 # easy-linux-scripts
-Ease of life scripts for Linux (i use arch btw) that I made in my free time.
+Ease of life scripts for Linux (i use arch btw) that I made in my free time. (work in progress, i will keep adding stuff occasionally)
 
 1. LUKS Mounting Script (mount_drives.sh)
 
