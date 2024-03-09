@@ -12,4 +12,7 @@ Ease of life scripts for Linux (i use arch btw) that I made in my free time. (wo
 2. Firefox History Clear after Shutdown/Restart (firefox-delete.sh)
     
     If you shut down/restart the system without manually quitting firefox first (only in linux), it restores your last open tabs regardless of if you have that setting disabled or not.
+   
     This happens because (what i assume) firefox not catching the SIGTERM signal sent by the kernel, and abruptly closing, resulting in it re-opening the last opened tabs as it would if it crashed.
+    
+    The script works by clearing session data. Set the script to auto start on user login.
